@@ -1,12 +1,21 @@
 {
   "pins" : [
     {
+      "identity" : "compute",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AndrewBarba/Compute",
+      "state" : {
+        "branch" : "main",
+        "revision" : "19c394c25741c1f2690b31f2e206b1c9b884ad02"
+      }
+    },
+    {
       "identity" : "javascriptkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/swiftwasm/JavaScriptKit.git",
       "state" : {
-        "revision" : "2d7bc960eed438dce7355710ece43fa004bbb3ac",
-        "version" : "0.15.0"
+        "revision" : "a129f62171bf3610633313c2db6acdca41cdb195",
+        "version" : "0.16.0"
       }
     },
     {
@@ -32,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-argument-parser",
       "state" : {
-        "revision" : "f3c9084a71ef4376f2fabbdf1d3d90a49f1fabdb",
-        "version" : "1.1.2"
+        "revision" : "9f39744e025c7d377987f30b03770805dcb0bcd1",
+        "version" : "1.1.4"
       }
     },
     {
@@ -46,21 +55,12 @@
       }
     },
     {
-      "identity" : "swift-compute-runtime",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/AndrewBarba/swift-compute-runtime",
-      "state" : {
-        "branch" : "main",
-        "revision" : "16c648f2c459262e4b3e359d3c33c53ea775722b"
-      }
-    },
-    {
       "identity" : "tokamak",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/TokamakUI/Tokamak.git",
       "state" : {
         "branch" : "main",
-        "revision" : "c0c453435247f60d135b5e03d0bc2fbed28a68d9"
+        "revision" : "af810902bdae65f59055d43191f747b45e32e436"
       }
     }
   ],
